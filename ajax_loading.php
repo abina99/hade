@@ -26,6 +26,7 @@ $came_from = false;
 if ($page == 'timeline') {
     $came_from = true;
 }
+DANH
 switch ($page) {
     case 'home':
         include('sources/home.php');
